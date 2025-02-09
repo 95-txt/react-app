@@ -1,0 +1,33 @@
+.footer {
+  background-color: #eeeeee;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+}
+.footercard {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  vertical-align: middle;
+  padding: 1rem;
+  padding-left: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+}
+.footericon{
+  position: absolute;
+  text-align: center;
+  width: 2rem;
+  right: 1rem;
+  font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer {
+    padding-inline: 20vw;
+  }
+}

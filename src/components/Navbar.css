@@ -1,0 +1,45 @@
+.verticalNav {
+  background-color: #ffffff;
+  display: grid;
+}
+.verticalNavTop {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.verticalList {
+  display: grid;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.verticalList a {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: 600;
+  color: black;
+}
+.verticalBtn {
+  font-size: xx-large;
+  padding: 1rem;
+}
+
+.horizondalNav {
+  background-color: #ffffff;
+  display: grid;
+}
+.horizondalList {
+  padding: 1.5rem;
+  padding-inline: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+.horizondalList a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.horizondalBtn {
+  display: none;
+}

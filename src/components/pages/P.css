@@ -1,0 +1,38 @@
+.cover{
+    background-image: url(/src/assets/leaf.png);
+    color: white;
+    text-align: center;
+}
+
+.project {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    padding-block: 5rem;
+    margin-inline: 2rem;
+    margin-top: 2rem;
+    box-shadow: -8px 8px 12px 0 #00000050, 0 6px 20px 0 #00000030;
+}
+  .discription{
+    text-align: center;
+    padding-inline: 2rem;
+    padding-block: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .discription{
+        padding-inline: 20vw;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .project {
+        padding-block: 14rem;
+        margin-inline: 20vw;
+    }
+}

@@ -1,0 +1,25 @@
+.card {
+  width: 100%;
+  border: none;
+  border-radius: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+.card a {
+  height: 100%;
+  padding: 3rem;
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(0deg, #00000095, #00000010);
+}
+.card a h1 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 800;
+}
+@media only screen and (min-width: 400px) {
+  .card {
+    width: 100%;
+  }
+}
