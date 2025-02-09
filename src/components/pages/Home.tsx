@@ -54,7 +54,7 @@ const Home = () => {
             cardtitle="Designs"
             cardtext="I love crafting meaningful designs that resonate with target audiences."
             route="/designs"
-            bgpath="'./src/assets/kallu.JPG'"
+            bgpath="'src/assets/kallu.jpg'"
           />
           <Card
             cardtitle="Art Works"
