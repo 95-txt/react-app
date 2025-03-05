@@ -15,37 +15,33 @@ const Designs = () => {
       <Design
         route="/designs/icebae"
         designTitle="icebae"
-        bgpath="./src/assets/icebae.jpg"
+        bgpath="/assets/icebae.jpg"
       />
       <Design
         route="/designs/tkmce"
         designTitle="TKMCE"
-        bgpath="./src/assets/TKMCE.JPG"
+        bgpath="/assets/TKMCE.JPG"
       />
       <Design
         route="/designs/hestia"
         designTitle="Hestia"
-        bgpath="./src/assets/hestia.png"
+        bgpath="/assets/hestia.png"
       />
       <Design
         route="/designs/kallu"
         designTitle="Kallu"
-        bgpath="./src/assets/kallu.JPG"
+        bgpath="/assets/kallu.JPG"
       />
       <Design
         route="/designs/northgate"
         designTitle="CREATIVE23"
-        bgpath="./src/assets/northgate.jpg"
+        bgpath="/assets/northgate.jpg"
       />
-      <Design
-        route="/designs/fr"
-        designTitle="FR"
-        bgpath="./src/assets/fr.JPG"
-      />
+      <Design route="/designs/fr" designTitle="FR" bgpath="/assets/fr.JPG" />
       <Design
         route="/designs/others"
         designTitle="Others"
-        bgpath="./src/assets/Others.png"
+        bgpath="/assets/Others.png"
       />
     </>
   );

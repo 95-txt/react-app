@@ -3,7 +3,7 @@ const Contact = () => {
   return (
     <>
       <div className="coverimg">
-        <img src="./src/assets/me1.jpg" alt="" />
+        <img src="/assets/me1.jpg" alt="" />
       </div>
       <div className="clubhead">Contact me</div>
       <Footer />

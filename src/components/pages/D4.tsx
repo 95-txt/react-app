@@ -5,44 +5,44 @@ import Slider from "react-slick";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 
 const images = [
-  "./src/assets/fr/fr02.jpg",
-  "./src/assets/fr/fr03.jpg",
-  "./src/assets/fr/fr04.jpg",
-  "./src/assets/fr/fr01.jpg",
-  "./src/assets/fr/fr06.png",
-  "./src/assets/fr/fr23.jpg",
-  "./src/assets/fr/fr07.jpg",
-  "./src/assets/fr/fr05.jpg",
-  "./src/assets/fr/fr08.jpg",
-  "./src/assets/fr/fr09.jpg",
-  "./src/assets/fr/fr10.jpg",
-  "./src/assets/fr/fr13.jpg",
-  "./src/assets/fr/fr15.jpg",
-  "./src/assets/fr/fr16.jpg",
-  "./src/assets/fr/fr17.jpg",
-  "./src/assets/fr/fr18.jpg",
-  "./src/assets/fr/fr20.jpg",
-  "./src/assets/fr/fr12.jpg",
-  "./src/assets/fr/fr21.jpg",
-  "./src/assets/fr/fr19.jpg",
-  "./src/assets/fr/fr25.jpg",
-  "./src/assets/fr/fr14.png",
+  "/assets/fr/fr02.jpg",
+  "/assets/fr/fr03.jpg",
+  "/assets/fr/fr04.jpg",
+  "/assets/fr/fr01.jpg",
+  "/assets/fr/fr06.png",
+  "/assets/fr/fr23.jpg",
+  "/assets/fr/fr07.jpg",
+  "/assets/fr/fr05.jpg",
+  "/assets/fr/fr08.jpg",
+  "/assets/fr/fr09.jpg",
+  "/assets/fr/fr10.jpg",
+  "/assets/fr/fr13.jpg",
+  "/assets/fr/fr15.jpg",
+  "/assets/fr/fr16.jpg",
+  "/assets/fr/fr17.jpg",
+  "/assets/fr/fr18.jpg",
+  "/assets/fr/fr20.jpg",
+  "/assets/fr/fr12.jpg",
+  "/assets/fr/fr21.jpg",
+  "/assets/fr/fr19.jpg",
+  "/assets/fr/fr25.jpg",
+  "/assets/fr/fr14.png",
 ];
 
 const slides = [
-  "./src/assets/fr/tn9.jpg",
-  "./src/assets/fr/tn1.jpg",
-  "./src/assets/fr/tn2.jpg",
-  "./src/assets/fr/tn3.jpg",
-  "./src/assets/fr/tn4.jpg",
-  "./src/assets/fr/tn5.jpg",
-  "./src/assets/fr/tn7.jpg",
-  "./src/assets/fr/tn8.jpg",
-  "./src/assets/fr/tn10.png",
-  "./src/assets/fr/tn11.jpg",
-  "./src/assets/fr/tn12.jpg",
-  "./src/assets/fr/tn13.jpg",
-  "./src/assets/fr/tn14.jpg",
+  "/assets/fr/tn9.jpg",
+  "/assets/fr/tn1.jpg",
+  "/assets/fr/tn2.jpg",
+  "/assets/fr/tn3.jpg",
+  "/assets/fr/tn4.jpg",
+  "/assets/fr/tn5.jpg",
+  "/assets/fr/tn7.jpg",
+  "/assets/fr/tn8.jpg",
+  "/assets/fr/tn10.png",
+  "/assets/fr/tn11.jpg",
+  "/assets/fr/tn12.jpg",
+  "/assets/fr/tn13.jpg",
+  "/assets/fr/tn14.jpg",
 ];
 
 const D4 = () => {
@@ -68,7 +68,7 @@ const D4 = () => {
   return (
     <>
       <div className="coverimg">
-        <img src="./src/assets/fr.jpg" alt="" />
+        <img src="/assets/fr.jpg" alt="" />
       </div>
       <div className="imgcontainer">
         {images.map((src, index) => (

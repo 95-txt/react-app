@@ -67,7 +67,7 @@ const Arts = () => {
   return (
     <>
       <div className="coverimg">
-        <img src="./src/assets/arts/art.jpg" alt="" />
+        <img src="/assets/arts/art.jpg" alt="" />
       </div>
       <Club clubname="Arts" arrayname={accumed} />
       <Footer />

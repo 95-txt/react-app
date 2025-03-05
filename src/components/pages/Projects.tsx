@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <>
       <div className="coverimg lg:mb-[4rem]">
-        <img src="./src/assets/project.png" alt="" />
+        <img src="/assets/project.png" alt="" />
       </div>
       <Link to={"#"} className="project bg-[url(src/assets/leaf.png)]">
         Dr.Green

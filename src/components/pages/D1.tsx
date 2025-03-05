@@ -3,19 +3,19 @@ import Footer from "./Footer";
 import { useEffect } from "react";
 
 const images = [
-  "./src/assets/icebae/icebae2.jpg",
-  "./src/assets/icebae/icebae10.jpg",
-  "./src/assets/icebae/icebae12.jpg",
-  "./src/assets/icebae/icebae4.jpg",
-  "./src/assets/icebae/icebae9.jpg",
-  "./src/assets/icebae/icebae13.jpg",
-  "./src/assets/icebae/icebae11.jpg",
-  "./src/assets/icebae/icebae7.png",
-  "./src/assets/icebae/icebae8.jpg",
-  "./src/assets/icebae/icebae1.jpg",
-  "./src/assets/icebae/icebae3.jpg",
-  "./src/assets/icebae/icebae6.jpg",
-  "./src/assets/icebae/icebae5.jpg",
+  "/assets/icebae/icebae2.jpg",
+  "/assets/icebae/icebae10.jpg",
+  "/assets/icebae/icebae12.jpg",
+  "/assets/icebae/icebae4.jpg",
+  "/assets/icebae/icebae9.jpg",
+  "/assets/icebae/icebae13.jpg",
+  "/assets/icebae/icebae11.jpg",
+  "/assets/icebae/icebae7.png",
+  "/assets/icebae/icebae8.jpg",
+  "/assets/icebae/icebae1.jpg",
+  "/assets/icebae/icebae3.jpg",
+  "/assets/icebae/icebae6.jpg",
+  "/assets/icebae/icebae5.jpg",
 ];
 
 const D1 = () => {
@@ -30,7 +30,7 @@ const D1 = () => {
   return (
     <>
       <div className="coverimg">
-        <img src="./src/assets/icebae.jpg" alt="" />
+        <img src="/assets/icebae.jpg" alt="" />
       </div>
       <div className="imgcontainer">
         {images.map((src, index) => (

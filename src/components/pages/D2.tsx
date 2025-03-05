@@ -3,17 +3,17 @@ import Footer from "./Footer";
 import { useEffect } from "react";
 
 const images = [
-  "./src/assets/kallu/kallu3.jpg",
-  "./src/assets/kallu/kallu2.jpg",
-  "./src/assets/kallu/kallu4.jpg",
-  "./src/assets/kallu/kallu5.jpg",
-  "./src/assets/kallu/kallu6.jpg",
-  "./src/assets/kallu/kallu7.jpg",
-  "./src/assets/kallu/kallu8.jpg",
-  "./src/assets/kallu/kallu9.jpg",
-  "./src/assets/kallu/kallu10.jpg",
-  "./src/assets/kallu/kallu11.jpg",
-  "./src/assets/kallu/kallu1.jpg",
+  "/assets/kallu/kallu3.jpg",
+  "/assets/kallu/kallu2.jpg",
+  "/assets/kallu/kallu4.jpg",
+  "/assets/kallu/kallu5.jpg",
+  "/assets/kallu/kallu6.jpg",
+  "/assets/kallu/kallu7.jpg",
+  "/assets/kallu/kallu8.jpg",
+  "/assets/kallu/kallu9.jpg",
+  "/assets/kallu/kallu10.jpg",
+  "/assets/kallu/kallu11.jpg",
+  "/assets/kallu/kallu1.jpg",
 ];
 
 const D2 = () => {
@@ -28,7 +28,7 @@ const D2 = () => {
   return (
     <>
       <div className="coverimg">
-        <img src="./src/assets/kallu/kallu11.jpg" alt="" />
+        <img src="/assets/kallu/kallu11.jpg" alt="" />
       </div>
       <div className="imgcontainer">
         {images.map((src, index) => (
