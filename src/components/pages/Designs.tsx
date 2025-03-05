@@ -20,7 +20,7 @@ const Designs = () => {
       <Design
         route="/designs/tkmce"
         designTitle="TKMCE"
-        bgpath="/assets/TKMCE.JPG"
+        bgpath="/assets/TKMCE.jpg"
       />
       <Design
         route="/designs/hestia"
@@ -30,14 +30,14 @@ const Designs = () => {
       <Design
         route="/designs/kallu"
         designTitle="Kallu"
-        bgpath="/assets/kallu.JPG"
+        bgpath="/assets/kallu.jpg"
       />
       <Design
         route="/designs/northgate"
         designTitle="CREATIVE23"
         bgpath="/assets/northgate.jpg"
       />
-      <Design route="/designs/fr" designTitle="FR" bgpath="/assets/fr.JPG" />
+      <Design route="/designs/fr" designTitle="FR" bgpath="/assets/fr.jpg" />
       <Design
         route="/designs/others"
         designTitle="Others"
