@@ -48,19 +48,19 @@ const Home = () => {
             cardtitle="Projects"
             cardtext="I love crafting meaningful projects that resonate with target audiences."
             route="/projects"
-            bgpath="'./src/assets/leaf.png'"
+            bgpath="'/assets/leaf.png'"
           />
           <Card
             cardtitle="Designs"
             cardtext="I love crafting meaningful designs that resonate with target audiences."
             route="/designs"
-            bgpath="'./src/assets/kallu.JPG'"
+            bgpath="'/assets/kallu.jpg'"
           />
           <Card
             cardtitle="Art Works"
             cardtext="I love crafting meaningful arts that resonate with target audiences."
             route="/arts"
-            bgpath="'./src/assets/achimma.png'"
+            bgpath="'/assets/achimma.png'"
           />
         </div>
       </div>
